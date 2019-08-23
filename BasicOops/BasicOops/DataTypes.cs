@@ -14,6 +14,8 @@ namespace BasicOops
             uint ui = 1;
             ushort us = 2;
             sbyte sb = -2;
+            String str = "test";
+
 
             Console.WriteLine(b);
             Console.WriteLine(by);
@@ -24,7 +26,7 @@ namespace BasicOops
             Console.WriteLine(ui);
             Console.WriteLine(us);
             Console.WriteLine(sb);
-
+            Console.WriteLine(str);
         }
     }
 }
