@@ -56,6 +56,7 @@ namespace BasicOops
 
         public int MethodWithArrayArgument(int[] itemstosum)
         {
+            // dynamic number of args
             int sum = 0;
             foreach(int item in itemstosum)
             {
